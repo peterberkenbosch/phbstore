@@ -81,7 +81,6 @@ group :development do
   gem "listen"
 end
 
-
 gem "solidus_core", "~> 3.2"
 gem "solidus_backend", "~> 3.2"
 gem "solidus_api", "~> 3.2"
