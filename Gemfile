@@ -80,3 +80,5 @@ group :development do
 
   gem "listen"
 end
+
+gem "solidus", "~> 3.2"
