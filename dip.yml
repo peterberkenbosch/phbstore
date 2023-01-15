@@ -6,7 +6,7 @@ environment:
 compose:
   files:
     - .dockerdev/compose.yml
-  project_name: rails-starter
+  project_name: phbstore
 
 interaction:
   sh:
@@ -69,7 +69,7 @@ interaction:
   psql:
     description: Run the psql CLI on the dev database
     service: postgres
-    command: psql -h postgres -U postgres -d app_development
+    command: psql -h postgres -U postgres -d phbstore_development
 
   'redis-cli':
     descriptions: Run the Redis CLI

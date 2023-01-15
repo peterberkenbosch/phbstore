@@ -71,7 +71,7 @@ services:
       - '50051'
     environment:
       <<: *backend_environment
-      APP_HOST: app.test
+      APP_HOST: phbstore.test
     depends_on:
       <<: *backend_depends_on
       chrome:
@@ -79,7 +79,7 @@ services:
     networks:
       default:
         aliases:
-          - app.test
+          - phbstore.test
 
   css:
     <<: *backend
