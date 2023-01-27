@@ -2,15 +2,12 @@
 # See http://docs.solidus.io/Spree/AppConfiguration.html for details
 
 # Solidus version defaults for preferences that are not overridden
-Spree.load_defaults "3.2.5"
+Spree.load_defaults "3.3"
 
 Spree.config do |config|
   # Core:
   # Default currency for new sites
   config.currency = "USD"
-
-  # from address for transactional emails
-  config.mails_from = "store@example.com"
 
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
