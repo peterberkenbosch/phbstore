@@ -83,6 +83,6 @@ end
 
 gem "solidus_core", "~> 3.3"
 gem "solidus_backend", "~> 3.3"
-gem "solidus_api", "~> 3.3"
+gem "solidus_api", "~> 3.4"
 gem "solidus_sample", "~> 3.3"
 gem "solidus_auth_devise"
