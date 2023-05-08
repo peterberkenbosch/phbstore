@@ -81,8 +81,8 @@ group :development do
   gem "listen"
 end
 
-gem "solidus_core", "~> 3.3"
-gem "solidus_backend", "~> 3.3"
-gem "solidus_api", "~> 3.4"
-gem "solidus_sample", "~> 3.3"
+gem "solidus_core", "~> 4.0"
+gem "solidus_backend", "~> 4.0"
+gem "solidus_api", "~> 4.0"
+gem "solidus_sample", "~> 4.0"
 gem "solidus_auth_devise"
